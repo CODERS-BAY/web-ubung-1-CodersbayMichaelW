@@ -1,0 +1,63 @@
+body{
+    font-size: 120%;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+nav {
+    background-color: rgba(33, 67, 119, 1);
+    text-align: center;
+}
+nav li {
+    display: inline;
+    padding-right: 3rem;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+nav a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8rem;
+}
+main {
+    max-width: 62rem;
+    margin: auto;
+    display:flex;
+}
+article {
+    width: 50%;
+    margin: 0 2rem;
+}
+footer {
+    background-color: rgba(0, 0, 0, 1);;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 530px) {
+    main {
+        display: block;
+    }
+    article {
+        width: auto;
+    }
+}
